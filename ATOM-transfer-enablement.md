@@ -103,7 +103,7 @@ Several entities have volunteered to store the data for cosmoshub-1, including S
 # Forum link
 
 The following forum can be used to discuss this proposal:
-  - 
+  - https://forum.cosmos.network/t/proposal-3-atom-transfer-enablement/1787
 
 For reference, see also:
   - https://forum.cosmos.network/t/postlaunch-roadmap-proposal-atom-transfers/1298
