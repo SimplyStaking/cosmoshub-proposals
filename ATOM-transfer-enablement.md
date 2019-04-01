@@ -14,7 +14,7 @@ More than eleven days have passed since the launch of the mainnet network and no
 
 # Original and Expedited Governance Rules
 
-In order not to unduly delay the release process, a two-step governance setup is being proposed, in the next section, for the release of v0.34.0. Before proceeding, let we define:
+In order not to unduly delay the release process, a two-step governance setup is being proposed, in the next section, for the release of v0.34.0. Before proceeding, let us define:
 
  * *Original Governance Rules*, to be the governance rules as currently implemented, namely, proposals are deemed to have passed if a 50%+1 majority of cast votes, excluding Abstain votes, by the end of the governance period (i.e. two weeks after the deposit threshold has been reached) are in favour of a proposal, a quorum of 40% of bonded stake has cast their vote and there are less than 33.4% Veto votes.
 
