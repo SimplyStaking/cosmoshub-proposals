@@ -20,7 +20,7 @@ In order not to unduly delay the release process, a two-step governance setup is
 
  * *24-Hours Expedited Governance Rule*, to be a different acceptance mechanism via which a proposal is deemed to have passed if 2/3 + 1 of bonded stake has voted in favour of the proposal for a continuous duration of 24-hours. A buffer period of 24 hours is also put in place from the time of full deposit payment to the possible start of the continuous 24-hours required. Note that this mechanism currently requires custom querying to determine.
 
-The 24-Hours Expedited Governance Rule aims to strike a balance between timeliness and safety by reducing the time required for proposal acceptance while increasing the necessary quorum to 2/3 of bonded stake + 1. 
+The 24-Hours Expedited Governance Rule aims to strike a balance between timeliness and safety by reducing the time required for proposal acceptance while increasing the necessary quorum to 2/3 of bonded stake + 1. Should 2/3 of bonded stake + 1 not vote YES in favour of the proposal, then the normal governance process will be followed.
 
 
 # Proposal
