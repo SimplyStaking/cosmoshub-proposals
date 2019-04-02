@@ -2,7 +2,7 @@
 
   * Lay out a plan to set up a testnet using the Cosmos SDK v0.34.0 release, along with mainnet conditions, plus transfer enablement and increased block size, as a testing ground.
 
-  * After this proposal is passed and after successful testing, and after the software Git hash for v0.34.0 has been finalized, conduct a second proposal which includes the specific Git hash, using an expedited governance rule to determine acceptance.
+  * After this proposal is passed and after successful testing, and after the software Git hash for v0.34.0 has been finalized, conduct a second proposal that includes the specific Git hash, using an expedited governance rule to determine acceptance.
 
   * After the second proposal is determined to be accepted, upgrade to the cosmoshub-2 chain to use the Cosmos SDK release v0.34.0, along with the necessary updates to the genesis file, at a time to be determined by the second proposal.
 
@@ -10,7 +10,7 @@
 
 The Cosmos Network was launched with no possibility to transfer ATOMS, mainly for security purposes to ensure that the release is stable and facilitate any rollbacks should the need for them arise.
 
-More than eleven days have passed since the launch of the mainnet network and no faults have appeared in the stability and security of the network. It is our belief that the network is ready to handle the enablement of ATOM transfers, a critical feature of any blockchain network. In order to achieve this, the maximum size of each block also needs to be updated to handle the associated increase in the number of transactions.
+More than two weeks have passed since the launch of the mainnet network and no faults have appeared in the stability and security of the network. It is our belief that the network is ready to handle the enablement of ATOM transfers, a critical feature of any blockchain network. In order to achieve this, the maximum size of each block also needs to be updated to handle the associated increase in the number of transactions.
 
 # Original and Expedited Governance Rules
 
@@ -18,16 +18,15 @@ In order not to unduly delay the release process, a two-step governance setup is
 
  * *Original Governance Rules*, to be the governance rules as currently implemented, namely, proposals are deemed to have passed if a 50%+1 majority of cast votes, excluding Abstain votes, by the end of the governance period (i.e. two weeks after the deposit threshold has been reached) are in favour of a proposal, a quorum of 40% of bonded stake has cast their vote and there are less than 33.4% Veto votes.
 
- * *24-Hours Expedited Governance Rule*, to be a different acceptance mechanism via which a proposal is deemed to have passed if 2/3 + 1 of bonded stake has voted in favour of the proposal for a continuous duration of 24-hours. A buffer period, of 24 hours, is also put in place from the time of full deposit payment to the possible start of the continuous 24-hours required. Note that this mechanism currently requires custom querying to determine.
+ * *24-Hours Expedited Governance Rule*, to be a different acceptance mechanism via which a proposal is deemed to have passed if 2/3 + 1 of bonded stake has voted in favour of the proposal for a continuous duration of 24-hours. A buffer period of 24 hours is also put in place from the time of full deposit payment to the possible start of the continuous 24-hours required. Note that this mechanism currently requires custom querying to determine.
 
-The 24-Hours Expedited Governance Rule aim to strike a balance between timeliness and safety by reducing the time required for proposal acceptance while increasing the necessary quorum to 2/3 of bonded stake + 1.
+The 24-Hours Expedited Governance Rule aims to strike a balance between timeliness and safety by reducing the time required for proposal acceptance while increasing the necessary quorum to 2/3 of bonded stake + 1. 
 
 
 # Proposal
 
 We are proposing that:
 
-  * The community accepts the current release (v0.33.0) of the Cosmos SDK running on chain cosmoshub-1 as stable;
 
   * The Tendermint development team push a new release (v0.34.0) of the Cosmos SDK with the following scope:
     - what is currently published under github.com/cosmos/cosmos-sdk and github.com/tendermint/tendermint in their respective develop branches
@@ -45,7 +44,7 @@ The main repercussion of these two proposals is that the fundamental feature of 
 
 # Possible blockers
 
-We see the following possible reasons for the delay of the transfer enablement milestone:
+Apart from non-acceptance of this proposal, we see the following possible reasons for the delay of the transfer enablement milestone:
 
   * A critical issue is identified during the testing phase of the new release.
 
@@ -77,7 +76,7 @@ We propose that the transfer enablement is performed in the following way:
     
       * Issue final genesis file and launch new testnet.
 
-  3. If no critical issues, such as chain halts, are identified on gaia-14k, a second proposal is proposed to be evaluated by 24-hour Expedited Governance Rule with the following spirit:
+  3. If no critical issues, such as chain halts, are identified on gaia-14k, a second proposal is proposed to be evaluated by 24-Hours Expedited Governance Rule with the following spirit:
       * The mainnet is upgraded to the new release and chain ID cosmoshub-2 after block height XXX (to be determined in the second proposal).  This will involve:
     
         * The issue of the new cosmoshub-2 genesis file with amended parameters.
@@ -105,6 +104,3 @@ Several entities have volunteered to store the data for cosmoshub-1, including S
 The following forum can be used to discuss this proposal:
   - https://forum.cosmos.network/t/proposal-3-atom-transfer-enablement/1787
 
-For reference, see also:
-  - https://forum.cosmos.network/t/postlaunch-roadmap-proposal-atom-transfers/1298
-  - https://ipfs.io/ipfs/QmaUaMjXPE6i4gJR1NakQc15TZpSqjSrXNmrS1vA5veF9W
